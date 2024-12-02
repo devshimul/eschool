@@ -2,32 +2,9 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: sans-serif;
+  font-family: "Poppins", sans-serif;
 }
-
-.heading {
-  color: #fff;
-  background-color: green;
-  padding: 24px;
-  border-radius: 10px;
-}
-
-/* Table design */
-table,
-tr,
-td,
-thead,
-tfoot,
-th {
-  border: 1px solid #000;
-  border-collapse: collapse;
-}
-table {
-  width: 600px;
+.container {
+  max-width: 1100px;
   margin: 0 auto;
-}
-.second > td {
-  background-color: cadetblue;
-  color: #fff;
-  padding: 10px;
 }
