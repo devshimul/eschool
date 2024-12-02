@@ -8,3 +8,34 @@
   max-width: 1100px;
   margin: 0 auto;
 }
+
+/* Header section css start */
+.header-section {
+}
+
+.header-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo img {
+  width: 198px;
+}
+.menu ul {
+  list-style-type: none;
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+.menu ul li a {
+  text-decoration: none;
+  color: #000;
+}
+.header-btn {
+  display: inline-block;
+  background-color: #29b575;
+  color: #fff !important;
+  padding: 4px 24px;
+  border-radius: 35px;
+}
+/* Header section css end */
