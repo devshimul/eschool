@@ -184,8 +184,6 @@ img {
 .testimonial-section {
   padding: 60px 0;
 }
-.title {
-}
 .title h2 {
   text-align: center;
   margin-bottom: 32px;
@@ -207,12 +205,49 @@ img {
 .user-img img {
   width: 120px;
 }
-.user-quote {
-}
 .user-quote p {
   text-align: justify;
   line-height: 1.5;
 }
-.users p {
-}
 /* Testimonial css end */
+
+/* Footer section css start */
+.footer-section {
+  padding: 40px 0;
+  background-color: #282531;
+}
+.footer-row {
+  display: flex;
+  gap: 32px;
+}
+.footer-description {
+  width: 30%;
+}
+.footer-description p {
+  color: #fff;
+}
+
+.footer-menu {
+  width: 23.33%;
+}
+.footer-menu h4 {
+  color: #fff;
+  margin-bottom: 16px;
+}
+.footer-menu ul {
+  list-style-type: none;
+}
+
+.footer-menu ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.copyright-text {
+  padding-top: 48px;
+  text-align: center;
+}
+.copyright-text P {
+  color: #fff;
+}
+/* Footer section css end */
