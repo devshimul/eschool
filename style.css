@@ -114,6 +114,69 @@ img {
 .statistics-box h4 {
   margin-top: 12px;
 }
-.statistics-box p {
-}
 /* Statistics section css end */
+
+/* Course section css start */
+.course-section {
+  padding-bottom: 60px;
+}
+.course-title h2 {
+  text-align: center;
+  margin-bottom: 32px;
+  font-size: 32px;
+  color: #413960;
+  font-weight: 500;
+}
+
+.card-row {
+  display: flex;
+  gap: 32px;
+  justify-content: space-between;
+}
+
+.course-card {
+  width: 33.33%;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.5);
+  border-radius: 6px;
+  padding: 24px;
+}
+.card-header h4 {
+  margin-top: 12px;
+  font-size: 20px;
+  font-weight: 500;
+  color: #413960;
+}
+.card-header p {
+  color: #585859;
+  margin: 16px 0;
+}
+.card-footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.date {
+  width: 65%;
+  display: flex;
+  gap: 10px;
+}
+.card-icon span {
+  color: #585859;
+}
+.card-date p {
+  color: #585859;
+}
+
+.seat {
+  width: 35%;
+  display: flex;
+  gap: 10px;
+}
+.seat-icon span {
+  color: #585859;
+}
+.seat-number p {
+  color: #585859;
+}
+/* Course section css end */
