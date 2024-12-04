@@ -180,3 +180,39 @@ img {
   color: #585859;
 }
 /* Course section css end */
+/* Testimonial css start */
+.testimonial-section {
+  padding: 60px 0;
+}
+.title {
+}
+.title h2 {
+  text-align: center;
+  margin-bottom: 32px;
+  font-size: 32px;
+  color: #413960;
+  font-weight: 500;
+}
+.users {
+  width: 650px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+}
+.user-img {
+  width: 70%;
+  margin-right: 20px;
+}
+.user-img img {
+  width: 120px;
+}
+.user-quote {
+}
+.user-quote p {
+  text-align: justify;
+  line-height: 1.5;
+}
+.users p {
+}
+/* Testimonial css end */
